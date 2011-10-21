@@ -1,0 +1,12 @@
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.pdb

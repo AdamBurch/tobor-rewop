@@ -1,0 +1,43 @@
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\background.xnb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gradient.xnb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\menufont.xnb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gamefont.xnb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
+C:\Users\Pi\Desktop\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\background.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gradient.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\menufont.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gamefont.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\

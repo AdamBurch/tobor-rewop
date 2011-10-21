@@ -1,0 +1,1 @@
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Content\obj\Windows Phone\Release\ResolveAssemblyReference.cache
