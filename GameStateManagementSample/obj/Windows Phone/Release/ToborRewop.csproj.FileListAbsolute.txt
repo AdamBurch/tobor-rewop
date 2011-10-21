@@ -1,0 +1,2 @@
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Release\ResolveAssemblyReference.cache
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
