@@ -35,6 +35,7 @@ C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Game
 bin\Windows Phone\Debug\
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\AppManifest.xaml

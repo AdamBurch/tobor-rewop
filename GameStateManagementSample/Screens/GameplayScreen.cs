@@ -15,6 +15,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using GameStateManagement;
+using GameStateManagementSample.Screens;
 #endregion
 
 namespace GameStateManagementSample
@@ -39,6 +40,8 @@ namespace GameStateManagementSample
         float pauseAlpha;
 
         InputAction pauseAction;
+
+        EnergyBar energyBar = new EnergyBar();
 
         #endregion
 
@@ -71,6 +74,9 @@ namespace GameStateManagementSample
                     content = new ContentManager(ScreenManager.Game.Services, "Content");
 
                 gameFont = content.Load<SpriteFont>("gamefont");
+
+                //this loads the energyBar content!
+                energyBar.Initialize(content);
 
                 // A real game would probably have more content than this sample, so
                 // it would take longer to load. We simulate that by delaying for a
@@ -141,19 +147,20 @@ namespace GameStateManagementSample
 
             if (IsActive)
             {
-                // Apply some random jitter to make the enemy move around.
-                const float randomization = 10;
+               /* MouseState ms = Mouse.GetState();
+                if (ms.LeftButton == ButtonState.Pressed)
+                {
 
-                enemyPosition.X += (float)(random.NextDouble() - 0.5) * randomization;
-                enemyPosition.Y += (float)(random.NextDouble() - 0.5) * randomization;
+                    enemyPosition.X = ms.X; 
+                    enemyPosition.Y = ms.Y;
 
-                // Apply a stabilizing force to stop the enemy moving off the screen.
-                Vector2 targetPosition = new Vector2(
-                    ScreenManager.GraphicsDevice.Viewport.Width / 2 - gameFont.MeasureString("Insert Gameplay Here").X / 2, 
-                    200);
+                    // Apply a stabilizing force to stop the enemy moving off the screen.
+                    Vector2 targetPosition = new Vector2(
+                        ScreenManager.GraphicsDevice.Viewport.Width / 2 - gameFont.MeasureString("Insert Gameplay Here").X / 2,
+                        200);
 
-                enemyPosition = Vector2.Lerp(enemyPosition, targetPosition, 0.05f);
-
+                    enemyPosition = Vector2.Lerp(enemyPosition, targetPosition, 0.05f);
+                }*/
                 // TODO: this game isn't very fun! You could probably improve
                 // it by inserting something more interesting in this space :-)
             }
@@ -247,6 +254,8 @@ namespace GameStateManagementSample
 
             spriteBatch.DrawString(gameFont, "Insert Gameplay Here",
                                    enemyPosition, Color.DarkRed);
+
+            energyBar.Draw(gameTime, spriteBatch);
 
             spriteBatch.End();
 
