@@ -29,10 +29,10 @@ namespace GameStateManagementSample.Screens
             myTexture = content.Load<Texture2D>("stack");
         }
 
-        public void Draw(GameTime gameTime, SpriteBatch sb, int myPosition)
+        public void Draw(GameTime gameTime, SpriteBatch sb, int myPosition, int xOffset)
         {
             sb.Draw(myTexture,
-                    new Rectangle((800 - myTexture.Width),
+                    new Rectangle((800 - myTexture.Width - xOffset),
                         480 - myTexture.Height * (myPosition+1), 
                         myTexture.Width, 
                         myTexture.Height),

@@ -41,7 +41,6 @@ namespace GameStateManagementSample
 
         InputAction pauseAction;
 
-        EnergyBar energyBar;
         Tower tower;
 
         #endregion
@@ -77,7 +76,7 @@ namespace GameStateManagementSample
                 gameFont = content.Load<SpriteFont>("gamefont");
 
                 //this loads the energyBar content!
-                energyBar = new EnergyBar(content);
+               
 
                 tower = new Tower(content);
 
@@ -154,7 +153,7 @@ namespace GameStateManagementSample
                 // TODO: this game isn't very fun! You could probably improve
                 // it by inserting something more interesting in this space :-)
 
-                energyBar.Update(gameTime);
+                
             }
         }
 
@@ -247,7 +246,7 @@ namespace GameStateManagementSample
             spriteBatch.DrawString(gameFont, "Insert Gameplay Here",
                                    enemyPosition, Color.DarkRed);
 
-            energyBar.Draw(gameTime, spriteBatch);
+           // energyBar.Draw(gameTime, spriteBatch);
             tower.Draw(gameTime, spriteBatch);
 
             spriteBatch.End();
