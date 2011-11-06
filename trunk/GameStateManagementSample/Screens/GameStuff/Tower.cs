@@ -19,12 +19,16 @@ namespace GameStateManagementSample.Screens
     {
         //Texture2D myTexture;
         List<TurrentStack> myStacks;
-
+        EnergyBar daBar;
 
         public Tower(ContentManager content)
         {
             myStacks = new List<TurrentStack>();
             myStacks.Add(new TurrentStack(content));
+            myStacks.Add(new TurrentStack(content));
+            myStacks.Add(new TurrentStack(content));
+
+            daBar = new EnergyBar(content);
         }
 
         /// <summary>
@@ -38,9 +42,11 @@ namespace GameStateManagementSample.Screens
 
         public void Draw(GameTime gameTime, SpriteBatch sb)
         {
+            daBar.Draw(gameTime, sb);
+
             for (int i = 0; i < myStacks.Count; i++ )
             {
-                myStacks[i].Draw(gameTime, sb, i);
+                myStacks[i].Draw(gameTime, sb, i, daBar.getWidth());
             }
         }
     }

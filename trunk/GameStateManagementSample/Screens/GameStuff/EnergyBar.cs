@@ -58,5 +58,10 @@ namespace GameStateManagementSample.Screens
                         myTexture.Height),
                     Color.White);
         }
+
+        public int getWidth()
+        {
+            return myTexture.Width;
+        }
     }
 }
