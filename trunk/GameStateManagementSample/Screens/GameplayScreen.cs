@@ -41,7 +41,8 @@ namespace GameStateManagementSample
 
         InputAction pauseAction;
 
-        EnergyBar energyBar = new EnergyBar();
+        EnergyBar energyBar;
+        Tower tower;
 
         #endregion
 
@@ -76,7 +77,9 @@ namespace GameStateManagementSample
                 gameFont = content.Load<SpriteFont>("gamefont");
 
                 //this loads the energyBar content!
-                energyBar.Initialize(content);
+                energyBar = new EnergyBar(content);
+
+                tower = new Tower(content);
 
                 // A real game would probably have more content than this sample, so
                 // it would take longer to load. We simulate that by delaying for a
@@ -147,22 +150,11 @@ namespace GameStateManagementSample
 
             if (IsActive)
             {
-               /* MouseState ms = Mouse.GetState();
-                if (ms.LeftButton == ButtonState.Pressed)
-                {
-
-                    enemyPosition.X = ms.X; 
-                    enemyPosition.Y = ms.Y;
-
-                    // Apply a stabilizing force to stop the enemy moving off the screen.
-                    Vector2 targetPosition = new Vector2(
-                        ScreenManager.GraphicsDevice.Viewport.Width / 2 - gameFont.MeasureString("Insert Gameplay Here").X / 2,
-                        200);
-
-                    enemyPosition = Vector2.Lerp(enemyPosition, targetPosition, 0.05f);
-                }*/
+              
                 // TODO: this game isn't very fun! You could probably improve
                 // it by inserting something more interesting in this space :-)
+
+                energyBar.Update(gameTime);
             }
         }
 
@@ -256,6 +248,7 @@ namespace GameStateManagementSample
                                    enemyPosition, Color.DarkRed);
 
             energyBar.Draw(gameTime, spriteBatch);
+            tower.Draw(gameTime, spriteBatch);
 
             spriteBatch.End();
 
