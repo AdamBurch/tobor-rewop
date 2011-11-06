@@ -55,6 +55,15 @@
       <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb</Output>
       <Time>2011-11-04T18:08:38.0579008-07:00</Time>
     </Item>
+    <Item>
+      <Source>stack.bmp</Source>
+      <Name>stack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\stack.xnb</Output>
+      <Time>2011-11-06T16:02:13.0859976-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{44459A75-F2CF-4B58-89EA-79154AF5C1AF}</ContentProjectGUID>

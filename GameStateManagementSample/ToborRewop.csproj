@@ -89,12 +89,14 @@
     <Compile Include="ScreenFactory.cs" />
     <Compile Include="Screens\BackgroundScreen.cs" />
     <Compile Include="Screens\Button.cs" />
-    <Compile Include="Screens\EnergyBar.cs" />
+    <Compile Include="Screens\GameStuff\EnergyBar.cs" />
     <Compile Include="Screens\GameplayScreen.cs" />
+    <Compile Include="Screens\GameStuff\TurrentStack.cs" />
     <Compile Include="Screens\LoadingScreen.cs" />
     <Compile Include="Screens\PhoneMainMenuScreen.cs" />
     <Compile Include="Screens\PhoneMenuScreen.cs" />
     <Compile Include="Screens\PhonePauseScreen.cs" />
+    <Compile Include="Screens\GameStuff\Tower.cs" />
     <None Include="Properties\AppManifest.xml">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </None>

@@ -4,3 +4,4 @@ Content\gradient.xnb
 Content\menufont.xnb
 Content\gamefont.xnb
 Content\energyBar.xnb
+Content\stack.xnb
