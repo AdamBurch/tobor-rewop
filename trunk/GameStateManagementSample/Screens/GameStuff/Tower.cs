@@ -23,21 +23,61 @@ namespace GameStateManagementSample.Screens
 
         public Tower(ContentManager content)
         {
-            myStacks = new List<TurrentStack>();
-            myStacks.Add(new TurrentStack(content));
-            myStacks.Add(new TurrentStack(content));
-            myStacks.Add(new TurrentStack(content));
-
             daBar = new EnergyBar(content);
+
+            myStacks = new List<TurrentStack>();
+            for (int i = 0; i < 3; i++)
+            {
+                TurrentStack temp = new TurrentStack(content);
+                temp.setPosition(i, daBar.getWidth());
+                myStacks.Add(temp);
+            }
+
+            
         }
 
         /// <summary>
         /// Allows the game component to update itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        public  void Update(GameTime gameTime)
+        public  void Update(GameTime gameTime, Vector2 touchPosition)
         {
             // TODO: Add your update code here
+
+            int turrentTouched = calcualateTurrentTouched(touchPosition);
+            if(turrentTouched != -1)
+                myStacks[turrentTouched].touched();
+        }
+
+
+        //tie this more into the turrent stacks themselves???
+        private int calcualateTurrentTouched(Vector2 touchPosition)
+        {
+            int temp = -1;
+
+            if (touchPosition.X > 800 - myStacks[0].getWidth())
+            {
+                for (int i = 0; i < myStacks.Count; i++)
+                {
+                    Rectangle stack = new Rectangle(
+                        (int)myStacks[i].myPosition.X, 
+                        (int)myStacks[i].myPosition.Y, 
+                        myStacks[i].getWidth(), 
+                        myStacks[i].getHeight());
+
+                    Rectangle touch = new Rectangle(
+                        (int)touchPosition.X,
+                        (int)touchPosition.Y,
+                        1,
+                        1);
+
+                    
+                    if (stack.Intersects(touch))
+                    { temp = i; break; }
+                }
+            }
+
+            return temp;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch sb)
@@ -46,7 +86,7 @@ namespace GameStateManagementSample.Screens
 
             for (int i = 0; i < myStacks.Count; i++ )
             {
-                myStacks[i].Draw(gameTime, sb, i, daBar.getWidth());
+                myStacks[i].Draw(gameTime, sb);
             }
         }
     }
