@@ -217,6 +217,8 @@ namespace GameStateManagementSample
                     Vector2 direction = touchPosition - playerPosition;
                     direction.Normalize();
                     movement += direction;
+
+                    tower.Update(gameTime, touchPosition);
                 }
 
                 if (movement.Length() > 1)
