@@ -18,6 +18,7 @@ namespace GameStateManagementSample.Screens
     public class EnergyBar
     {
         Texture2D myTexture;
+        TimeSpan myTimer;
         double powerRemaining = 0;
         double totalPower = 0;
 
@@ -26,6 +27,7 @@ namespace GameStateManagementSample.Screens
             // TODO: Construct any child components here
             powerRemaining = 100;
             totalPower = 100;
+            myTimer = new TimeSpan();
 
             this.LoadContent(content);
         }
@@ -43,8 +45,32 @@ namespace GameStateManagementSample.Screens
         {
             // TODO: Add your update code here
 
-            if (powerRemaining > 0)
-                powerRemaining -= 1;
+            myTimer = myTimer.Add(gameTime.ElapsedGameTime);
+
+            if (myTimer.Seconds >= 1)
+            {
+                myTimer = new TimeSpan();
+                if(powerRemaining < totalPower)
+                    powerRemaining += 3;
+            }
+        }
+
+        public bool hasAvailable(int power)
+        {
+            return powerRemaining > power;
+        }
+
+        public bool takeEnergy(int power)
+        {
+            if (powerRemaining > power)
+            {
+                powerRemaining -= power;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
 

@@ -89,8 +89,10 @@
     <Compile Include="ScreenFactory.cs" />
     <Compile Include="Screens\BackgroundScreen.cs" />
     <Compile Include="Screens\Button.cs" />
+    <Compile Include="Screens\GameStuff\Bullet.cs" />
     <Compile Include="Screens\GameStuff\EnergyBar.cs" />
     <Compile Include="Screens\GameplayScreen.cs" />
+    <Compile Include="Screens\GameStuff\EnergyComponent.cs" />
     <Compile Include="Screens\GameStuff\Turrent.cs" />
     <Compile Include="Screens\GameStuff\TurrentStack.cs" />
     <Compile Include="Screens\LoadingScreen.cs" />
