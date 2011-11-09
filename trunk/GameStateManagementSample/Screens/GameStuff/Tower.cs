@@ -28,8 +28,7 @@ namespace GameStateManagementSample.Screens
             myStacks = new List<TurrentStack>();
             for (int i = 0; i < 3; i++)
             {
-                TurrentStack temp = new TurrentStack(content);
-                temp.setPosition(i, daBar.getWidth());
+                TurrentStack temp = new TurrentStack(content, i, daBar.getWidth());
                 myStacks.Add(temp);
             }
 
@@ -44,9 +43,16 @@ namespace GameStateManagementSample.Screens
         {
             // TODO: Add your update code here
 
+            daBar.Update(gameTime);
+
             int turrentTouched = calcualateTurrentTouched(touchPosition);
             if(turrentTouched != -1)
                 myStacks[turrentTouched].touched();
+
+            foreach (TurrentStack stack in myStacks)
+            {
+                stack.Update(gameTime, ref daBar);
+            }
         }
 
 

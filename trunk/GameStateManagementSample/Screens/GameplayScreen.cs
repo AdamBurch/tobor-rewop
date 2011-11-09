@@ -16,6 +16,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using GameStateManagement;
 using GameStateManagementSample.Screens;
+using System.Collections.Generic;
 #endregion
 
 namespace GameStateManagementSample
@@ -29,7 +30,7 @@ namespace GameStateManagementSample
     {
         #region Fields
 
-        ContentManager content;
+        static ContentManager content;
         SpriteFont gameFont;
 
         Vector2 playerPosition = new Vector2(100, 100);
@@ -42,6 +43,7 @@ namespace GameStateManagementSample
         InputAction pauseAction;
 
         Tower tower;
+        static List<Bullet> myBullets;
 
         #endregion
 
@@ -79,6 +81,7 @@ namespace GameStateManagementSample
                
 
                 tower = new Tower(content);
+                myBullets = new List<Bullet>();
 
                 // A real game would probably have more content than this sample, so
                 // it would take longer to load. We simulate that by delaying for a
@@ -211,20 +214,30 @@ namespace GameStateManagementSample
                 movement.X += thumbstick.X;
                 movement.Y -= thumbstick.Y;
 
+                Vector2 touchPosition = Vector2.Zero;
+
                 if (input.TouchState.Count > 0)
                 {
-                    Vector2 touchPosition = input.TouchState[0].Position;
+                    touchPosition = input.TouchState[0].Position;
                     Vector2 direction = touchPosition - playerPosition;
                     direction.Normalize();
                     movement += direction;
 
-                    tower.Update(gameTime, touchPosition);
+                    //tower.Update(gameTime, touchPosition);
                 }
+
+                tower.Update(gameTime, touchPosition);
 
                 if (movement.Length() > 1)
                     movement.Normalize();
 
                 playerPosition += movement * 8f;
+
+
+                foreach (Bullet bullet in myBullets)
+                {
+                    bullet.Update(gameTime);
+                }
             }
         }
 
@@ -251,6 +264,11 @@ namespace GameStateManagementSample
            // energyBar.Draw(gameTime, spriteBatch);
             tower.Draw(gameTime, spriteBatch);
 
+            foreach (Bullet bullet in myBullets)
+            {
+                bullet.Draw(gameTime, spriteBatch);
+            }
+
             spriteBatch.End();
 
             // If the game is transitioning on or off, fade it out to black.
@@ -264,5 +282,10 @@ namespace GameStateManagementSample
 
 
         #endregion
+        public static void fireBullet(Vector2 bulletSpawn)
+        {
+            myBullets.Add(new Bullet(content, bulletSpawn));
+ 
+        }
     }
 }

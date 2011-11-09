@@ -19,25 +19,27 @@ namespace GameStateManagementSample.Screens
     {
         Texture2D myTexture;
         Turrent myTurrent;
+        EnergyComponent myComponent;
         public Vector2 myPosition;
-        public TurrentStack(ContentManager content)
+        bool touchMyTurret;
+        public TurrentStack(ContentManager content, int stackPos, int xOffset)
         {
             // TODO: Construct any child components here
 
-            myTurrent = new Turrent(content);
             this.LoadContent(content);
-        }
 
-        public void setPosition(int stackPos, int xOffset)
-        {
             myPosition = new Vector2((800 - myTexture.Width - xOffset),
                         480 - myTexture.Height * (stackPos + 1));
  
+
+            myTurrent = new Turrent(content, myPosition);
+            myComponent = new EnergyComponent(content, new Vector2(myPosition.X + myTurrent.getWidth(), myPosition.Y));
+            
         }
 
         public void touched()
         {
-            myTurrent.touched();
+            touchMyTurret = true;
         }
 
         protected void LoadContent(ContentManager content)
@@ -54,6 +56,12 @@ namespace GameStateManagementSample.Screens
             return myTexture.Height;
         }
 
+        public void Update(GameTime gameTime, ref EnergyBar daBar)
+        {
+            myComponent.Update(gameTime, touchMyTurret, ref myTurrent, ref daBar);
+            touchMyTurret = false;
+        }
+
         public void Draw(GameTime gameTime, SpriteBatch sb)
         {
             sb.Draw(myTexture,
@@ -63,7 +71,9 @@ namespace GameStateManagementSample.Screens
                         myTexture.Height),
                     Color.White);
 
-            myTurrent.Draw(gameTime, sb, myPosition);
+
+            myComponent.Draw(gameTime, sb);
+            myTurrent.Draw(gameTime, sb);
         }
     }
 }

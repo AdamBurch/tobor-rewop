@@ -38,3 +38,5 @@ C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Game
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\stack.xnb
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\testTurrent.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\battery.xnb
+C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\bullet.xnb
