@@ -19,11 +19,14 @@ namespace GameStateManagementSample.Screens
     {
         Texture2D myTexture;
         Vector2 myPosition;
-        bool touchedThisFrame;
+        TimeSpan myTimer;
+        bool touchedLastFrame;
 
         public EnergyComponent(ContentManager content, Vector2 myPos)
         {
             myPosition = myPos;
+            touchedLastFrame = false;
+            myTimer = new TimeSpan();
             this.LoadContent(content);
         }
 
@@ -38,14 +41,29 @@ namespace GameStateManagementSample.Screens
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public void Update(GameTime gameTime, bool turretTouched, ref Turrent myTurret, ref EnergyBar daBar)
         {
+            myTimer = myTimer.Add(gameTime.ElapsedGameTime);
+
             // TODO: Add your update code here
-            if (turretTouched && daBar.takeEnergy(2))
+            if (turretTouched && daBar.hasAvailable(2))
             {
-                
-                myTurret.fire();
+
+                if (!touchedLastFrame)
+                {
+                    daBar.takeEnergy(2);
+                    myTurret.fire();
+                    myTimer = new TimeSpan();
+                }
+                else if(myTimer.Seconds >= 1)
+                {
+                    daBar.takeEnergy(2);
+                    myTurret.fire();
+                    myTimer = new TimeSpan();
+                }
 
  
             }
+
+            touchedLastFrame = turretTouched;
         }
 
         public void Draw(GameTime gT, SpriteBatch sb)
