@@ -21,6 +21,7 @@ namespace GameStateManagementSample.Screens
         List<TurrentStack> myStacks;
         EnergyBar daBar;
 
+
         public Tower(ContentManager content)
         {
             daBar = new EnergyBar(content);
@@ -45,6 +46,9 @@ namespace GameStateManagementSample.Screens
 
             daBar.Update(gameTime);
 
+            //TODO:
+            //I don't like this at all! We should pass this as an update parameter...shouldn't we?
+            //mixing paradigms. ughugh.
             int turrentTouched = calcualateTurrentTouched(touchPosition);
             if(turrentTouched != -1)
                 myStacks[turrentTouched].touched();
@@ -61,7 +65,7 @@ namespace GameStateManagementSample.Screens
         {
             int temp = -1;
 
-            if (touchPosition.X > 800 - myStacks[0].getWidth())
+            if (touchPosition.X > 700 - myStacks[0].getWidth())
             {
                 for (int i = 0; i < myStacks.Count; i++)
                 {
