@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\background.xnb</Output>
-      <Time>2011-10-20T11:35:28.0142953-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\background.xnb</Output>
+      <Time>2011-11-12T15:55:38.8544085-07:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\blank.xnb</Output>
-      <Time>2011-10-20T11:35:28.0242953-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\blank.xnb</Output>
+      <Time>2011-11-12T15:55:39.1044228-07:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -25,26 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gradient.xnb</Output>
-      <Time>2011-10-20T11:35:28.0642953-07:00</Time>
-    </Item>
-    <Item>
-      <Source>menufont.spritefont</Source>
-      <Name>menufont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\menufont.xnb</Output>
-      <Time>2011-10-20T11:35:28.0742953-07:00</Time>
-    </Item>
-    <Item>
-      <Source>gamefont.spritefont</Source>
-      <Name>gamefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\gamefont.xnb</Output>
-      <Time>2011-10-20T11:35:28.0542953-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\gradient.xnb</Output>
+      <Time>2011-11-12T15:55:38.8524084-07:00</Time>
     </Item>
     <Item>
       <Source>energyBar.bmp</Source>
@@ -52,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb</Output>
-      <Time>2011-11-04T18:08:38.0579008-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb</Output>
+      <Time>2011-11-12T15:55:39.107423-07:00</Time>
     </Item>
     <Item>
       <Source>stack.bmp</Source>
@@ -61,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\stack.xnb</Output>
-      <Time>2011-11-06T16:24:55.5234184-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\stack.xnb</Output>
+      <Time>2011-11-12T15:55:38.8554085-07:00</Time>
     </Item>
     <Item>
       <Source>testTurrent.bmp</Source>
@@ -70,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\testTurrent.xnb</Output>
-      <Time>2011-11-06T16:24:50.7437615-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\testTurrent.xnb</Output>
+      <Time>2011-11-12T15:55:38.8504083-07:00</Time>
     </Item>
     <Item>
       <Source>battery.bmp</Source>
@@ -79,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\battery.xnb</Output>
-      <Time>2011-11-08T18:51:05.7349407-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\battery.xnb</Output>
+      <Time>2011-11-12T15:55:38.8644091-07:00</Time>
     </Item>
     <Item>
       <Source>bullet.bmp</Source>
@@ -88,8 +70,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\bullet.xnb</Output>
-      <Time>2011-11-08T19:19:14.2652232-07:00</Time>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\bullet.xnb</Output>
+      <Time>2011-11-12T15:55:38.8574087-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\menufont.xnb</Output>
+      <Time>2011-11-12T15:55:38.8664092-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\gamefont.xnb</Output>
+      <Time>2011-11-12T15:55:39.1114232-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BadRobot.png</Source>
+      <Name>BadRobot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\BadRobot.xnb</Output>
+      <Time>2011-11-12T18:39:40.95027-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -98,10 +107,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\obj\Windows Phone\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Hank\Desktop\tobor rewop\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -130,7 +139,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-10-20T00:51:19.7407658-07:00</Value>
+        <Value>2011-11-12T17:25:36.8020793-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

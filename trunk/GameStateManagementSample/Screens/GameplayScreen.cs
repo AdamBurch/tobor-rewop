@@ -44,6 +44,9 @@ namespace GameStateManagementSample
 
         Tower tower;
         static List<Bullet> myBullets;
+        static List<BadRobot> myBadRobot;
+        float BadRobotInterval = 500f;
+        Int64 milliseconds = 0;
 
         #endregion
 
@@ -82,6 +85,7 @@ namespace GameStateManagementSample
 
                 tower = new Tower(content);
                 myBullets = new List<Bullet>();
+                myBadRobot = new List<BadRobot>();
 
                 // A real game would probably have more content than this sample, so
                 // it would take longer to load. We simulate that by delaying for a
@@ -158,6 +162,44 @@ namespace GameStateManagementSample
 
                 
             }
+
+            milliseconds += (long)gameTime.ElapsedGameTime.TotalMilliseconds;
+            if (milliseconds >= BadRobotInterval)
+            {
+                generateBadRobot(new Vector2(0f, 380));
+                milliseconds = 0;
+            }
+
+            foreach(Bullet b in myBullets) 
+            {
+                
+                foreach(BadRobot bad in myBadRobot)
+                {
+                    if (b.collisionBox.Intersects(bad.collisionBox))
+                    {
+                        bad.HP -= 1;
+                        b.isAlive = false;
+                    }
+                }
+            }
+
+            // remove bullet and badrobot if its not alive,
+            // cannot use foreach method for some reason :\
+            for (int i = 0; i < myBullets.Count; i++)
+            {
+                if (!myBullets[i].isAlive)
+                {
+                    myBullets.RemoveAt(i);
+                }
+            }
+
+            for (int i = 0; i < myBadRobot.Count; i++)
+            {
+                if (!myBadRobot[i].isAlive)
+                {
+                    myBadRobot.RemoveAt(i);
+                }
+            }
         }
 
 
@@ -233,10 +275,17 @@ namespace GameStateManagementSample
 
                 playerPosition += movement * 8f;
 
-
+                // adding
                 foreach (Bullet bullet in myBullets)
                 {
-                    bullet.Update(gameTime);
+                    if(bullet.isAlive)
+                        bullet.Update(gameTime);
+                }
+
+                foreach (BadRobot bad in myBadRobot)
+                {
+                    if(bad.isAlive)
+                        bad.Update(gameTime);
                 }
             }
         }
@@ -266,7 +315,14 @@ namespace GameStateManagementSample
 
             foreach (Bullet bullet in myBullets)
             {
-                bullet.Draw(gameTime, spriteBatch);
+                if(bullet.isAlive)
+                    bullet.Draw(gameTime, spriteBatch);
+            }
+
+            foreach (BadRobot bad in myBadRobot)
+            {
+                if(bad.isAlive)
+                    bad.Draw(gameTime, spriteBatch);
             }
 
             spriteBatch.End();
@@ -286,6 +342,11 @@ namespace GameStateManagementSample
         {
             myBullets.Add(new Bullet(content, bulletSpawn));
  
+        }
+
+        public static void generateBadRobot(Vector2 BadRobotSpawn)
+        {
+            myBadRobot.Add(new BadRobot(content, BadRobotSpawn));
         }
     }
 }

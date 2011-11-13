@@ -10,3 +10,9 @@ C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Game
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.dll
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagement\obj\Windows Phone\Debug\GameStateManagement.pdb

@@ -1,10 +1,11 @@
 Content\background.xnb
 Content\blank.xnb
 Content\gradient.xnb
-Content\menufont.xnb
-Content\gamefont.xnb
 Content\energyBar.xnb
 Content\stack.xnb
 Content\testTurrent.xnb
 Content\battery.xnb
 Content\bullet.xnb
+Content\menufont.xnb
+Content\gamefont.xnb
+Content\BadRobot.xnb
