@@ -40,3 +40,27 @@ C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\Game
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\testTurrent.xnb
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\battery.xnb
 C:\Users\Pi\Documents\Visual Studio 2010\Projects\GameStateManagementSample\GameStateManagementSample\bin\Windows Phone\Debug\Content\bullet.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\background.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\blank.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\gradient.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\energyBar.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\stack.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\testTurrent.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\battery.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\bullet.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\menufont.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\gamefont.xnb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.dll
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.dll
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagement.pdb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\GameStateManagementSample.pdb
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\GameStateManagementSample.xap
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Hank\Desktop\tobor rewop\GameStateManagementSample\bin\Windows Phone\Debug\Content\BadRobot.xnb

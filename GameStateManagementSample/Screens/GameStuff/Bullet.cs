@@ -19,15 +19,18 @@ namespace GameStateManagementSample.Screens
     {
         Texture2D myTexture;
         Vector2 myPosition;
+        public Rectangle collisionBox;
 
         //is touched by Hank???
-        bool isAlive;
+        public bool isAlive;
         public Bullet(ContentManager content, Vector2 initialPosition)
         {
             // TODO: Construct any child components here
             myPosition = initialPosition;
             isAlive = true;
             this.LoadContent(content);
+            collisionBox = new Rectangle((int)myPosition.X, (int)myPosition.Y,
+                                         myTexture.Width, myTexture.Height);
         }
 
         protected void LoadContent(ContentManager content)
@@ -52,10 +55,12 @@ namespace GameStateManagementSample.Screens
         public void Update(GameTime gameTime)
         {
             myPosition.X -= 5;
-
+            collisionBox.X = (int)myPosition.X;
             //offscreen???
             if (myPosition.X < -1 * myTexture.Width)
+            {
                 isAlive = false;
+            }
 
         }
     }
